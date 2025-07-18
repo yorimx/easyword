@@ -18,5 +18,4 @@ func Auth(r *ghttp.Request) {
 		r.Exit()
 	}
 	r.Middleware.Next()
-
 }
